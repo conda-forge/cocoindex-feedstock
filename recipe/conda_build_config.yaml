@@ -1,0 +1,16 @@
+# cocoindex requires Python ≥3.11 (pyproject.toml: requires-python = ">=3.11"
+# + Cargo.toml: pyo3 abi3-py311). Override conda-forge-pinning defaults so
+# the abi3 matrix-collapse pattern (skip: is_abi3 and not is_python_min)
+# builds against py3.11 instead of pinning's default py3.10.
+python:
+  - 3.11.* *_cpython
+  - 3.12.* *_cpython
+  - 3.13.* *_cpython
+  - 3.14.* *_cpython
+python_min:
+  - "3.11"
+is_python_min:
+  - true
+  - false
+  - false
+  - false

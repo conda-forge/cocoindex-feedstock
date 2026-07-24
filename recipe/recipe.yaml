@@ -14,7 +14,7 @@ source:
   sha256: d508fbaa3b5b81ee6b74121477a60c23c812965779bc5160145a469dd5df6aad
 
 build:
-  number: 0
+  number: 1
   script:
     env:
       # PEP 540 UTF-8 mode — forces Python to use UTF-8 for all I/O

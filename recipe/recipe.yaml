@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "1.0.17"
+  version: "1.0.18"
   python_min: "3.11"
 
 package:
@@ -11,10 +11,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/c/cocoindex/cocoindex-${{ version }}.tar.gz
-  sha256: d508fbaa3b5b81ee6b74121477a60c23c812965779bc5160145a469dd5df6aad
+  sha256: f366a14438f3c581abf94a31b6cb96897e69f3d0776fd52da3ae20a9cc10a98f
 
 build:
-  number: 1
+  number: 0
   script:
     env:
       # PEP 540 UTF-8 mode — forces Python to use UTF-8 for all I/O

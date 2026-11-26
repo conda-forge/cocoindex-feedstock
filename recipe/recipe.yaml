@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "1.2.0"
+  version: "1.2.1"
 
 package:
   name: cocoindex
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/c/cocoindex/cocoindex-${{ version }}.tar.gz
-  sha256: cabb7e245bfdcaeef1c8009e0b8c0b095b70267d4cc9636a60d4223adedd33df
+  sha256: 2b523b36191f52ffdee0a53ef3245d699b432b081b76133523a8951704d083d3
 
 build:
   number: 0
